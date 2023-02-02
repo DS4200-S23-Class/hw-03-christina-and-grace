@@ -1,0 +1,19 @@
+body{
+    font-family: "Arial";
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex_column {
+    flex: 1;
+    flex-basis: 0;
+    width: 50%;
+}
+
+.centered {
+    text-align: center;
+}
