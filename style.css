@@ -1,11 +1,11 @@
 body{
     font-family: "Arial";
+    color: 'black';
 }
 
 .flexbox {
     display: flex;
     flex-direction: row;
-    text-align: center;
 }
 
 .flex_column {
