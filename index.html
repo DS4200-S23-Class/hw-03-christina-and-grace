@@ -18,7 +18,7 @@
     <div class="flexbox">
         <!-- Vis 1 Descriptions -->
         <div class="flex_column">
-            <img src="img/vis1.png" width="100%">
+            <img src="img/vis1.png" width="95%" height="95%">
         </div>
         <!-- Vis 2 Descriptions -->
         <div class="flex_column">
@@ -31,7 +31,7 @@
             <ul>
                 <li>Color</li>
                 <ul>
-                    <li>represents the political party that won the electoral votes in a given state</li>
+                    <li>Represents the political party that won the electoral votes in a given state</li>
                     <li>This is a good mapping choice because the majority of people easily recognize
                         blue and red as Democratic and Republican, respectively. Using a US Map where each
                         state is filled in with the appropriate representative color, the visualization easily
@@ -44,7 +44,7 @@
             <ul>
                 <li>Categorical</li>
                 <ul>
-                    <li>represents the political party (Blue or Red) that won the electoral votes in a given state</li>
+                    <li>Represents the political party (Blue or Red) that won the electoral votes in a given state</li>
                     <li>This is a good mapping choice because in American culture, blue and red are clearly 
                         representative of the two political parties: Democrats and Republicans. The two contrasting
                         colors are easily distinguishable. Where votes were split in Nebraska, the fill of 
@@ -60,27 +60,55 @@
     <div class="flexbox">
         <!-- Vis 1 Descriptions -->
         <div class="flex_column">
-            <img src="img/vis2.png" width="100%">
+            <img src="img/vis2.png" width="95%" height="95%">
             
         </div>
         <!-- Vis 2 Descriptions -->
         <div class="flex_column">
             <h3>Marks</h3>
             <ul>
-                <li></li>
-                <li></li>
+                <li>Points</li>
             </ul>
 
             <h3>Channels</h3>
             <ul>
-                <li></li>
-                <li></li>
+                <li>Horizontal and Vertical Position (Both)</li>
+                <ul>
+                    <li>Horizontal- represents the exit velocity</li>
+                    <li>Vertical- represents the launch angle</li>
+                    <li>This is a good mapping choice because the scoring value is based on the angle of the ball's
+                        launch as well as the speed off the bat. By making the x-axis the exit velocity and the
+                        y-axis the launch angle, it creates a 2D graph on which each ball can be plotted based 
+                        off of these two variables. The horizontal and vertical positioning also fits well with the
+                        data types of the variables, as it clearly shows the increasing velocity from left to 
+                        right and the increasing angle from bottom to top. 
+                    </li>
+                </ul>
+                <li>Color </li>
+                <ul>
+                    <li>Represents the scoring value</li>
+                    <li>This is a good mapping choice because the color of the point plotted on the graph shows 
+                        whether or not the scoring value of that batted ball was on the higher or lower 
+                        spectrum of LWTS in comparison to the average value. The two distinct colors clearly 
+                        show which batted balls were better than others on the graph, which would have looked
+                        a lot messier and unclear if the scoring value was not represented by differing colors. 
+                    </li>
+                </ul>
             </ul>
 
             <h3>Colormap(s)</h3>
             <ul>
-                <li></li>
-                <li></li>
+                <li>Divergent</li>
+                <ul>
+                    <li>Represents the spectrum of scoring values</li>
+                    <li>This is a good mapping choice because the two extremes of the scoring values, higher than 
+                        average or lower than average, are represented by purple and orange, respectively. The average, or 
+                        midpoint of the scoring value is marked by a neutral white color, and the saturation of the colors 
+                        increase as the value gets farther away from the average. Thus, viewers can clearly tell what
+                        range of angles and velocities produce the highest scoring batted balls on the graph, and which
+                        range of angles and velocities produce the lowest scoring batted bats. 
+                    </li>
+                </ul>
             </ul>
         </div>
     </div>
